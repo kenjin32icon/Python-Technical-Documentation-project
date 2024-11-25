@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Technical Documentation</title>
+    
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header id="header">Python Technical Documentation</header>
+        <ul>
+          <li><a href="#introduction" class="nav-link">Introduction</a></li>
+          <li><a href="#variables" class="nav-link">Variables</a></li>
+          <li><a href="#data_types" class="nav-link">Data_Types</a></li>
+          <li><a href="#operators" class="nav-link">Operators</a></li>
+          <li><a href="#control_structures" class="nav-link">Control_Structures</a></li>
+          <li><a href="#functions" class="nav-link">Functions</a></li>
+          <li><a href="#modules_and_packages" class="nav-link">Modules_and_Packages</a></li>
+        </ul>
+      </nav>
+      <section class="main-section" id="introduction">
+    <header>Introduction</header>
+    <p>Python is a high-level, interpreted programming language. It is widely used for web development, scientific computing, data analysis, artificial intelligence, and more. Python is known for its simplicity and readability, making it an excellent language for beginners and experts alike.</p>
+    <h3>History of Python</h3>
+    <p>Python was created in the late 1980s by Guido van Rossum as a hobby project. It was named after the Monty Python comedy group. Python quickly gained popularity and is now one of the most widely used programming languages in the world.</p>
+    <h3>Features of Python</h3>
+    <ul>
+      <li>Easy to learn and use</li>
+      <li>High-level, interpreted language</li>
+      <li>Dynamic typing</li>
+      <li>Support for multiple programming paradigms</li>
+      <li>Large standard library</li>
+      <li>Open-source software</li>
+    </ul>
+    <h3>Getting Started with Python</h3>
+    <p>To start using Python, you will need a development environment, such as IDLE, Jupyter Notebook, or PyCharm. You can then write and run Python code, experiment with different features and functions, and create your own programs.</p>
+  </section>
+
+  <section class="main-section" id="variables">
+    <header>Variables</header>
+       <code>
+       <p>In Python, a variable is a name that refers to a value. You can assign values to variables and then use them in your code. The value of a variable can be changed at any time.</p>
+        <h3>Creating Variables</h3>
+        <p>To create a variable in Python, use the equal sign (=) to assign a value to a variable name. For example:</p>
+        <pre>
+  name = "John"
+  age = 30
+        </pre>
+        <h3>Variable Naming Conventions</h3>
+        <p>In Python, variable names must start with a letter or an underscore. They can contain letters, numbers, and underscores. It is recommended to use lowercase letters and separate words with underscores for better readability. For example:</p>
+        <pre>
+  first_name
+  age_in_years
+        </pre>
+        </code>
+      </section>
+    
+    <section class="main-section" id="data_types">
+      <header> Data_Types  </header>
+      <code>
+      <p>In Python, the data type of a variable is determined by the value assigned to it. For example, if you assign a string value to a variable, it becomes a string variable. If you then assign an integer value to the same variable, it becomes an integer variable.</p>
+        <h3>Introduction to Python Types</h3>
+        <p>Python has several built-in data types, including integers, floating-point numbers, strings, lists, and dictionaries. Each data type has its own unique characteristics and uses.</p>
+        <h3>Integer Data Type</h3>
+        <p>The integer data type is used to represent whole numbers. It can be positive, negative, or zero. Examples of integers include 42, -7, and 0.</p>
+        <h3>Floating-Point Data Type</h3>
+        <p>The floating-point data type is used to represent decimal numbers. It can be positive, negative, or zero. Examples of floating-point numbers include 3.14, -0.01, and 0.0.</p>
+        <h3>String Data Type</h3>
+        <p>The string data type is used to represent sequences of characters. Strings are enclosed in quotes, either single or double. Examples of strings include "hello world" and 'python'.</p>
+        <h3>List Data Type</h3>
+        <p>The list data type is used to represent ordered sequences of values. Lists are enclosed in square brackets and values are separated by commas. Examples of lists include [1, 2, 3] and ['cat', 'dog', 'mouse'].</p>
+        <h3>Dictionary Data Type</h3>
+        <p>The dictionary data type is used to represent collections of key-value pairs. Dictionaries are enclosed in curly braces and keys are separated from values by colons. Examples of dictionaries include {'name': 'John', 'age': 30} and {1: 'apple', 2: 'banana'}.</p>
+        </code>
+      </section>
+   
+    <section class="main-section" id="operators">
+      <header> Operators</header>
+      <code>
+      <p>In Python, operators are special symbols that perform specific operations on one or more operands (values or variables). The value or result of the operation is called the result.</p>
+        <h3>Arithmetic Operators</h3>
+        <ul>
+          <li>Addition: +</li>
+          <li>Subtraction: -</li>
+          <li>Multiplication: *</li>
+          <li>Division: /</li>
+          <li>Modulus: %</li>
+          <li>Exponentiation: **</li>
+          <li>Floor Division: //</li>
+        </ul>
+        <h3>Assignment Operators</h3>
+        <ul>
+          <li>Equal: =</li>
+          <li>Add and Assign: +=</li>
+          <li>Subtract and Assign: -=</li>
+          <li>Multiply and Assign: *=</li>
+          <li>Divide and Assign: /=</li>
+          <li>Modulus and Assign: %=</li>
+          <li>Exponentiate and Assign: **=</li>
+          <li>Floor Divide and Assign: //=</li>
+        </ul>
+        <h3>Comparison Operators</h3>
+        <ul>
+          <li>Equal: ==</li>
+          <li>Not Equal: !=</li>
+          <li>Less Than: <</li>
+          <li>Less Than or Equal: <=</li>
+          <li>Greater Than: ></li>
+          <li>Greater Than or Equal: >=</li>
+        </ul>
+        <h3>Logical Operators</h3>
+        <ul>
+          <li>And: and</li>
+          <li>Or: or</li>
+          <li>Not: not</li>
+        </ul>
+        <h2>Identity Operators</h2>
+        <ul>
+          <li>Is: is</li>
+          <li>Is Not: is not</li>
+        </ul>
+        <h3>Membership Operators</h3>
+        <ul>
+          <li>In: in</li>
+          <li>Not In: not in</li>
+        </ul>
+        </code>
+      </section>
+   
+    <section class="main-section" id="control_structures">
+      <header> Control_Structures </header>
+      <code>
+      <p>Python has several control structures to control the flow of execution of a program:</p>
+        <ul>
+          <li>if statements</li>
+          <li>for loops</li>
+          <li>while loops</li>
+        </ul>
+        <p>Here's an example of an if statement:</p>
+        <pre>
+  if x > 0:
+      print("x is positive")
+        </pre>
+        <p>Here's an example of a for loop:</p>
+        <pre>
+  for i in range(5):
+      print(i)
+        </pre>
+        <p>Here's an example of a while loop:</p>
+        <pre>
+  i = 0
+  while i < 5:
+      print(i)
+      i += 1
+        </pre>
+        </code>
+    </section>
+   
+    <section class="main-section" id="functions">
+      <header> Functions </header>
+      <code>
+      <p>In Python, functions are defined using the <code>def</code> keyword. The basic syntax is:</p>
+        <pre>
+  def function_name(arguments):
+      # function body
+        </pre>
+        <p>For example:</p>
+        <pre>
+  def add(a, b):
+      return a + b
+        </pre>
+        <p>You can call the function like this:</p>
+        <pre>
+  result = add(1, 2)
+  print(result) # 3
+        </pre>
+        </code>
+      </section>
+    
+    <section class="main-section"    id="modules_and_packages">
+     <header> Modules_and_Packages </header>
+     <code>
+     <p>To use a module in Python, use the `import` keyword, followed by the module name. For example:</p>
+     <pre>
+import mymodule
+
+mymodule.greet("John")
+     </pre>
+     <h3>Creating Packages</h3>
+     <p>To create a package in Python, create a directory containing your modules, and an __init__.py file. The __init__.py file can be empty, but it is necessary for the directory to be recognized as a package. For example, create a directory called `mypackage` containing the file `mymodule.py` and an __init__.py file.</p>
+     <h3>Using Packages</h3>
+     <p>To use a package in Python, use the `from` keyword, followed by the package name and module name. For example:</p>
+     <pre>
+from mypackage import mymodule
+
+mymodule.greet("John")
+     </pre>
+     </code>
+   </section>
+  </main>
+  </body>
+  </html>
